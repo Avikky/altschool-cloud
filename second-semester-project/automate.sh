@@ -4,10 +4,10 @@
 file="Vagrantfile"
 
 #create a directory where the script will be executed
-mkdir -p ~/segunassignment
+mkdir -p ~/examproject
 
 #Change directory to the directory you created
-cd ~/segunassignment
+cd ~/examproject
 
 #initalize vagrant to pull a vagrantfile
 vagrant init ubuntu/focal64
