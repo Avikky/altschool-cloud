@@ -1,6 +1,8 @@
 # Provisioning of two Ubuntu-based servers, named “Master” and “Slave”, using Vagrant, for the deployment of a PHP application.
 
-First step to take is to create the directory where you want your script to run and cd into that directory, then create a file to store your script for example <spanstyle="color: red;">vagrant.sh
+First step to take is to create the directory where you want your script to run and cd into that directory, then create a file to store your script for example vagrant.sh.
+
+I used automate.sh
 
 Open the file with a text editor (nano or vim)
 
@@ -23,4 +25,10 @@ Hostname: slave
 
 IP Address: 192.168.56.4
 
-Using this IP Address above one can access the installed laravel application hosted on the apache server on the slave machine.
+![1698012995365](image/README/1698012995365.png)
+
+**The screenshot above is the final response for automate.sh script**
+
+**Using this IP Address above one can access the installed laravel application hosted on the apache server on the slave machin**e.
+
+![1698013442244](image/README/1698013442244.png)
