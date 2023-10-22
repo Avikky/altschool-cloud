@@ -12,7 +12,7 @@ initialize a vagrant environment to pull a vagrantfile by running vagrant init
 
 # Machine Configuration
 
-![1698011346391](image/ReadMe/1698011346391.png)
+![1698013676573](image/1698011346391.png)
 
 The screenshot above shows the slave and master vagrant machine configuration.
 I am using dynamic network type dhcp so my IP is dynamic and because it is dynamic I catch the value and store it in a variable called slave_ip
@@ -25,10 +25,12 @@ Hostname: slave
 
 IP Address: 192.168.56.4
 
-![1698012995365](image/README/1698012995365.png)
+![1698013676573](image/script_response.png)
+
 
 **The screenshot above is the final response for automate.sh script**
 
 **Using this IP Address above one can access the installed laravel application hosted on the apache server on the slave machin**e.
 
-![1698013442244](image/README/1698013442244.png)
+
+![1698013676573](image/application_installed.png)
